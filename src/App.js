@@ -4,7 +4,6 @@ import Home from "./component/Home";
 import Addcontact from './component/Addcontact';
 import Editcontact from './component/Editcontact';
 import Chartsmap from './component/Chartsmap';
-import CovidGraph from './component/CovidGraph';
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
@@ -28,9 +27,6 @@ function App() {
       </div>
     </div>
   </Router>
-  <div className='w-[100%] h-[70vh]'>
-    <CovidGraph />
-  </div>
   </>
   );
 }
